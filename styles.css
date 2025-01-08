@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.player-inputs input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+select {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: red;
+    color: white;
+}
+
+.rules {
+    background-color: black;
+    color: white;
+}
+
+.next {
+    background-color: red;
+    color: white;
+}
+
+
+.score-table,
+.input-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.score-table th,
+.score-table td,
+.input-table th,
+.input-table td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+
+.input-table input{
+    background: none;
+    width: 100%;
+}
+
+.add-score {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.lowest-score {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+}
+
+.highest-score {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+}
+
+.score-info {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.score-info p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.score-info span {
+    color: rgb(255, 255, 255);
+}
